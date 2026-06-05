@@ -1,0 +1,91 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+padding:20px;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/038/511/491/small_2x/ai-generated-the-sky-was-dark-with-pouring-rain-accompanied-by-nimbostratus-clouds-that-covered-the-entire-sky-photo.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin:0;
+}
+#error{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.weather-card{
+width:900px;
+max-width:100%;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(15px);
+padding:30px;
+border-radius:25px;
+color:white;
+box-shadow:0 8px 32px rgba(0,0,0,.2);
+background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+padding:20px;
+}
+
+.search{
+display:flex;
+gap:10px;
+margin:20px 0;
+}
+
+.search input{
+flex:1;
+padding:14px;
+border:none;
+outline:none;
+border-radius:30px;
+}
+
+.search button{
+padding:14px 25px;
+border:none;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.weather{
+text-align:center;
+}
+
+.weather img{
+width:120px;
+}
+
+.details{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.box{
+background:rgba(255,255,255,.15);
+padding:15px;
+border-radius:15px;
+}
+
+.sun{
+margin-top:20px;
+display:flex;
+justify-content:space-around;
+}
